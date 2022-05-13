@@ -1,0 +1,92 @@
+@media screen and (max-width: 375px) {
+
+    .comunidade {
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+    .assinatura {
+        padding: 5px 30px;
+    }
+
+    .sobre {
+        padding: 5px 30px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width: 445px) {
+
+    body {
+        height: 100vh;
+        padding: 0px 20px;
+    }
+
+    .comunidade {
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        padding: 10px 30px;
+    }
+
+    .assinatura {
+        padding: 5px 30px;
+    }
+
+    .sobre {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 5px 30px;
+    }
+}
+
+@media screen and (min-width: 446px) and (max-width: 695px) {
+
+    body {
+        height: 100vh;
+        padding: 0px 25px;
+    }
+   
+    .container {
+        flex-direction: column;
+        width: 440px;
+    }
+
+    .comunidade {
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        padding: 15px 35px;
+    }
+
+    .assinatura {
+        padding: 10px 35px;
+    }
+
+    .sobre {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 10px 35px;
+    }
+}
+
+@media screen and (min-width:696px) {
+
+    body {
+        height: 100vh;
+        padding: 0px 50px;
+    }
+
+    .comunidade {
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        padding: 25px 40px;
+    }
+    
+    .assinatura {
+        border-bottom-left-radius: 10px;
+        padding: 20px 40px;
+    }
+
+    .sobre {
+        border-bottom-right-radius: 10px;
+        padding: 20px 40px;
+    }
+}
